@@ -4,6 +4,23 @@ set -a
 
 # VARIABLE=${1:-default_value}
 
+function usage(){
+   echo "$1 [ ssid [ latitude [ longitude [ hub [ resource [ date ]]]]]]"
+}
+
+while getopts "h" opt; do
+
+  case $opt in
+    h)
+      # echo "-h was triggered"
+      usage "$0"
+      exit 0
+      ;;
+  esac
+
+
+done
+
 SSID="${1:-usuario}"
 LATITUDE="${2:-43.0}"
 LONGITUDE="${3:-2.21}"
