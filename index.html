@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Test KML: Future Cities </title>
+	<meta name="generator" content="TextMate http://macromates.com/">
+	<meta name="author" content="Orestes Sanchez">
+		
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    
+	<script type="text/javascript"  src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=geometry">
+    </script>
+
+	<script type="text/javascript" src="js/utils.js"></script>
+
+    <script type="text/javascript">
+	    var debug = true;
+	    var insertFunctionCSS= (debug? insertRandomCSS: insertCSS);
+	    var insertFunctionScript= (debug? insertRandomScript: insertScript);
+	</script>
+    
+	
+	<script type="text/javascript">
+        insertFunctionCSS( "maps/css/futcit.css");
+        
+        
+	    insertFunctionScript( "maps/js/futcittest.js");
+	</script>
+    
+	<!-- Date: 2011-10-05 -->
+</head>
+<body  onload="initialize()">
+<div id="map_canvas"></div>
+</body>
+</html>

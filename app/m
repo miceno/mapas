@@ -1,0 +1,53 @@
+Query=http://www.tmb.cat/piu/ca_ES/piuimodesoluciob.jsp?linia=43&parada=1133
+<html>
+<head>
+	<title>TMB iBus</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+</head>
+<body bgcolor="#99CCFF">
+		   <p align="center">
+		   <img src="/piu/img/simbol_petit.gif">
+		   <p align="center">
+1133 - Rambla de Prim-Llull<p align="center">
+         	<table align="center">
+	     		<tr>
+	      			<td align="center"><b>Proper Bus 43*</b> </td>
+		  		</tr>
+		  		<tr>
+	      			<td>
+				  		<table cellpadding=1 cellspacing=4 align="center">
+				  		 	<tr>
+	      						<td align="center"><b>Temps*</b></td>
+					  		</tr>
+				  		<tr>
+									<td align="center">6 min</td></tr>
+						<tr>
+									<td align="center">16 min</td></tr>
+						</table>
+				  	</td>
+				</tr>
+		  		<tr><td>&nbsp;</td></tr>
+        	</table>
+         	<p align="center">
+       	* Temps aproximat en minuts<br/> 
+TMB Gràcies.
+		</p>
+			<p align="center">
+			<table>
+			<tr><td>
+			<form method= "post" action="/piu/ca_ES/piuimodesoluciob.jsp?linia=43&parada=1133">
+		         	 <input type="submit" value="Actualitzar">
+		        </form>
+		        </td>
+		        <td>
+		        <form method="get" action="/ibus.html">
+		         	 <input type="submit" value="Tornar">
+		         </form>
+		         </td>
+		         </tr>
+		         </table>
+		</p>
+
+</body>
+</html>
+

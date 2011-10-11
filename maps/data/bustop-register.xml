@@ -1,0 +1,12 @@
+<rs>
+<id href="urn:x-ogc:def:identifier:IDAS:1.0:localIdentifier">busstop1133</id>
+<id href="urn:x-ogc:def:identifier:IDAS:1.0:UniversalIdentifierOfLogicalHub">UCIDASTEST</id>
+<what href="urn:x-ogc:def:phenomenon:IDAS:1.0:presence"/>
+<what href="urn:x-ogc:def:phenomenon:IDAS:1.0:batteryCharge"/>
+<gps lat="41.41310" lon="2.21744"/>
+<param id="pgps" name="ParamGPS" role="property:configurationProperty" arcr="urn:x-ogc:def:property:IDAS:1.0:read" href="urn:x-ogc:def:property:UC:1.0:ParamGPS"><gps lat="00.47139" lon="-00.80222"/>
+</param>
+<data name="BC" id="bc">
+<quan uom="urn:x-ogc:def:uom:IDAS:1.0:percent">0</quan>
+</data>
+</rs>

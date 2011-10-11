@@ -1,0 +1,11 @@
+--2011-10-11 12:40:50--  http://paidgw.hi.inet:8002/idas/2.0
+Resolving paidgw.hi.inet... 10.95.19.65
+Connecting to paidgw.hi.inet|10.95.19.65|:8002... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 120 [text/xml]
+Saving to: `STDOUT'
+
+     0K                                                       100% 7.63M=0s
+
+2011-10-11 12:40:51 (7.63 MB/s) - written to stdout [120/120]
+

@@ -1,0 +1,9 @@
+<io>
+<obs from="taxi0000_wifi0000">
+<stm>2011-06-29T18:40:06+02.00</stm>
+<what href="8:0"/>
+<param href="1:7"><text>taxi0000</text></param>
+<param><gps lat="41.4173" lon="2.21988"/></param>
+<data><text>acceso</text></data>
+</obs>
+</io>

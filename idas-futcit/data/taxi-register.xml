@@ -1,0 +1,8 @@
+<rs>
+<id href="1:1">taxi0000_wifi0000</id>
+<id href="1:7">taxi0000</id>
+<what href="8:0"/>
+<param name="GPS" id="gps" role="3:13" arcr="3:10" href="8:27"><gps 
+lat="0.0" lon="0.0"/></param>
+<data name="ssid" id="ssid"><text>EMPTY_SSID</text></data>
+</rs>
